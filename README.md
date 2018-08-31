@@ -40,6 +40,10 @@ To create the database and to install or update the views, simply run:
 
 	python tool.py
 
+To migrate the database to a newer version run after every backend update:
+
+	python migration.py
+
 *Note:* This tool requires Python 2. Windows users have to make additional changes to the path used in file `tool.py`.
 
 ## Credits
